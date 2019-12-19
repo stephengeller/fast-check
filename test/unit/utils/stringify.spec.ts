@@ -67,6 +67,16 @@ describe('stringify', () => {
     expect(repr).toContain('[cyclic]');
     expect(repr).toEqual('{"a":1,"b":[cyclic],"c":3}');
   });
+  it('Should be able to stringify objects with custom __proto__', () => {
+    expect(stringify({ ['__proto__']: 1 })).toEqual('{["__proto__"]:1}');
+    expect(stringify(Object.create(null))).toEqual('Object.assign(Object.create(null),{})');
+    expect(stringify(Object.assign(Object.create(null), { a: 1, b: 2 }))).toEqual(
+      'Object.assign(Object.create(null),{"a":1,"b":2})'
+    );
+    expect(stringify(Object.assign(Object.create(null), { ['__proto__']: 42 }))).toEqual(
+      'Object.assign(Object.create(null),{["__proto__"]:42})'
+    );
+  });
   it('Should be able to stringify cyclic arrays', () => {
     const cyclic: any[] = [1, 2, 3];
     cyclic.push(cyclic);
