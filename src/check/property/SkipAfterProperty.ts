@@ -1,6 +1,6 @@
-import { Random } from '../../random/generator/Random';
-import { PreconditionFailure } from '../precondition/PreconditionFailure';
-import { IRawProperty } from './IRawProperty';
+import { Random } from '../../random/generator/Random.js';
+import { PreconditionFailure } from '../precondition/PreconditionFailure.js';
+import { IRawProperty } from './IRawProperty.js';
 
 /** @hidden */
 export class SkipAfterProperty<Ts, IsAsync extends boolean> implements IRawProperty<Ts, IsAsync> {

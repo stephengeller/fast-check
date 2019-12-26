@@ -1,8 +1,8 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { AsyncCommand } from '../../../../src/check/model/command/AsyncCommand';
-import { Command } from '../../../../src/check/model/command/Command';
-import { modelRun, asyncModelRun } from '../../../../src/check/model/ModelRunner';
+import { AsyncCommand } from '../../../../src/check/model/command/AsyncCommand.js';
+import { Command } from '../../../../src/check/model/command/Command.js';
+import { modelRun, asyncModelRun } from '../../../../src/check/model/ModelRunner.js';
 
 describe('ModelRunner', () => {
   describe('modelRunner', () => {

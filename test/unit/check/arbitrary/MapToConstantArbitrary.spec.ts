@@ -1,10 +1,10 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { mapToConstant } from '../../../../src/check/arbitrary/MapToConstantArbitrary';
-import { Random } from '../../../../src/random/generator/Random';
-import { minMax } from './generic/GenericArbitraryHelper';
-import { nat } from '../../../../src/check/arbitrary/IntegerArbitrary';
+import { mapToConstant } from '../../../../src/check/arbitrary/MapToConstantArbitrary.js';
+import { Random } from '../../../../src/random/generator/Random.js';
+import { minMax } from './generic/GenericArbitraryHelper.js';
+import { nat } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
 
 describe('MapToConstantArbitrary', () => {
   describe('mapToConstant', () => {

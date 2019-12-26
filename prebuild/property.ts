@@ -1,4 +1,4 @@
-import { commas, iota, txCommas } from './helpers';
+import { commas, iota, txCommas } from './helpers.js';
 
 const predicateFor = (num: number, isAsync: boolean): string =>
   isAsync
@@ -24,9 +24,9 @@ const generateProperty = (num: number, isAsync: boolean): string => {
   const className = isAsync ? 'AsyncProperty' : 'Property';
   const blocks = [
     // imports
-    `import { Arbitrary } from '../arbitrary/definition/Arbitrary';`,
-    `import { genericTuple } from '../arbitrary/TupleArbitrary';`,
-    `import { ${className} } from './${className}.generic';`,
+    `import { Arbitrary } from '../arbitrary/definition/Arbitrary.js';`,
+    `import { genericTuple } from '../arbitrary/TupleArbitrary.js';`,
+    `import { ${className} } from './${className}.generic.js';`,
     // declare all signatures
     ...iota(num).map(id => signatureFor(id + 1, isAsync)),
     // declare function
@@ -67,9 +67,9 @@ const generatePropertySpec = (num: number, isAsync: boolean): string => {
   const className = isAsync ? 'AsyncProperty' : 'Property';
   const blocks = [
     // imports
-    `import * as stubArb from '../../stubs/arbitraries';`,
-    `import * as stubRng from '../../stubs/generators';`,
-    `import { ${functionName} } from '../../../../src/check/property/${className}';`,
+    `import * as stubArb from '../../stubs/arbitraries.js';`,
+    `import * as stubRng from '../../stubs/generators.js';`,
+    `import { ${functionName} } from '../../../../src/check/property/${className}.js';`,
     // start blocks
     `describe('${className}', () => {`,
     // tests

@@ -1,8 +1,8 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { bigIntN, bigUintN, bigInt, bigUint } from '../../../../src/check/arbitrary/BigIntArbitrary';
+import { bigIntN, bigUintN, bigInt, bigUint } from '../../../../src/check/arbitrary/BigIntArbitrary.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
 
 declare function BigInt(n: number | bigint | string): bigint;
 

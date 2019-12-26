@@ -1,14 +1,14 @@
-import { array } from './ArrayArbitrary';
-import { constantFrom } from './ConstantArbitrary';
-import { constant } from './ConstantArbitrary';
-import { buildAlphaNumericPercentArb } from './helpers/SpecificCharacterRange';
-import { domain, hostUserInfo } from './HostArbitrary';
-import { nat } from './IntegerArbitrary';
-import { ipV4, ipV4Extended, ipV6 } from './IpArbitrary';
-import { oneof } from './OneOfArbitrary';
-import { option } from './OptionArbitrary';
-import { stringOf } from './StringArbitrary';
-import { tuple } from './TupleArbitrary';
+import { array } from './ArrayArbitrary.js';
+import { constantFrom } from './ConstantArbitrary.js';
+import { constant } from './ConstantArbitrary.js';
+import { buildAlphaNumericPercentArb } from './helpers/SpecificCharacterRange.js';
+import { domain, hostUserInfo } from './HostArbitrary.js';
+import { nat } from './IntegerArbitrary.js';
+import { ipV4, ipV4Extended, ipV6 } from './IpArbitrary.js';
+import { oneof } from './OneOfArbitrary.js';
+import { option } from './OptionArbitrary.js';
+import { stringOf } from './StringArbitrary.js';
+import { tuple } from './TupleArbitrary.js';
 
 export interface WebAuthorityConstraints {
   /** Enable IPv4 in host */

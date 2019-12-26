@@ -1,16 +1,16 @@
 import prand from 'pure-rand';
-import * as fc from '../../../../../lib/fast-check';
+import * as fc from '../../../../../lib/fast-check.js';
 
-import { Command } from '../../../../../src/check/model/command/Command';
-import { Random } from '../../../../../src/random/generator/Random';
-import { constant } from '../../../../../src/check/arbitrary/ConstantArbitrary';
-import { commands } from '../../../../../src/check/model/commands/CommandsArbitrary';
-import { genericTuple } from '../../../../../src/check/arbitrary/TupleArbitrary';
-import { nat } from '../../../../../src/check/arbitrary/IntegerArbitrary';
-import { Arbitrary } from '../../../../../src/check/arbitrary/definition/Arbitrary';
-import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable';
+import { Command } from '../../../../../src/check/model/command/Command.js';
+import { Random } from '../../../../../src/random/generator/Random.js';
+import { constant } from '../../../../../src/check/arbitrary/ConstantArbitrary.js';
+import { commands } from '../../../../../src/check/model/commands/CommandsArbitrary.js';
+import { genericTuple } from '../../../../../src/check/arbitrary/TupleArbitrary.js';
+import { nat } from '../../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { Arbitrary } from '../../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable.js';
 
-import { isStrictlySmallerArray } from '../../arbitrary/ArrayArbitrary.spec';
+import { isStrictlySmallerArray } from '../../arbitrary/ArrayArbitrary.spec.js';
 
 type Model = {};
 type Real = {};

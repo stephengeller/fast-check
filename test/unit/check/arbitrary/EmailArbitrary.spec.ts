@@ -1,6 +1,6 @@
-import { emailAddress } from '../../../../src/check/arbitrary/EmailArbitrary';
+import { emailAddress } from '../../../../src/check/arbitrary/EmailArbitrary.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
 
 const isValidEmailRfc1123 = (t: string) => {
   // Taken from https://www.w3.org/TR/html5/forms.html#valid-e-mail-address

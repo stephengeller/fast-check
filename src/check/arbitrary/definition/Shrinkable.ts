@@ -1,5 +1,5 @@
-import { Stream } from '../../../stream/Stream';
-import { cloneMethod, hasCloneMethod, WithCloneMethod } from '../../symbols';
+import { Stream } from '../../../stream/Stream.js';
+import { cloneMethod, hasCloneMethod, WithCloneMethod } from '../../symbols.js';
 
 /**
  * A Shrinkable<T> holds an internal value of type `T`

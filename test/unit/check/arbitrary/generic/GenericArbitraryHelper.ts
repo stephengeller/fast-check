@@ -1,9 +1,9 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../../../../lib/fast-check';
+import * as fc from '../../../../../lib/fast-check.js';
 
-import { Arbitrary } from '../../../../../src/check/arbitrary/definition/Arbitrary';
-import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable';
-import { Random } from '../../../../../src/random/generator/Random';
+import { Arbitrary } from '../../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { Random } from '../../../../../src/random/generator/Random.js';
 
 const testSameSeedSameValues = function<U, T>(
   argsForArbGenerator: fc.Arbitrary<U>,

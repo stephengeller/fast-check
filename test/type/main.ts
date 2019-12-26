@@ -1,5 +1,5 @@
 import { expectType, expectError } from 'tsd';
-import * as fc from '../../src/fast-check';
+import * as fc from '../../src/fast-check.js';
 
 // assert
 expectType<void>(fc.assert(fc.property(fc.nat(), () => {})));

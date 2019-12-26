@@ -1,9 +1,9 @@
-import { MemoArbitrary, memo } from '../../../../src/check/arbitrary/MemoArbitrary';
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
-import { Random } from '../../../../src/random/generator/Random';
+import { MemoArbitrary, memo } from '../../../../src/check/arbitrary/MemoArbitrary.js';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { Random } from '../../../../src/random/generator/Random.js';
 
-import * as stubRng from '../../stubs/generators';
+import * as stubRng from '../../stubs/generators.js';
 
 describe('MemoArbitrary', () => {
   describe('memo', () => {

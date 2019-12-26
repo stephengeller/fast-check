@@ -1,7 +1,7 @@
-import { ArbitraryWithShrink } from '../../../../../src/check/arbitrary/definition/ArbitraryWithShrink';
-import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable';
-import { Random } from '../../../../../src/random/generator/Random';
-import { stream, Stream } from '../../../../../src/stream/Stream';
+import { ArbitraryWithShrink } from '../../../../../src/check/arbitrary/definition/ArbitraryWithShrink.js';
+import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { Random } from '../../../../../src/random/generator/Random.js';
+import { stream, Stream } from '../../../../../src/stream/Stream.js';
 
 type ArbitraryForDefinition<T> = {
   value: T;

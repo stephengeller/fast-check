@@ -1,6 +1,6 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { constantFrom } from '../../../../src/check/arbitrary/ConstantArbitrary';
+import { constantFrom } from '../../../../src/check/arbitrary/ConstantArbitrary.js';
 import {
   asciiString,
   base64String,
@@ -9,11 +9,11 @@ import {
   string16bits,
   stringOf,
   unicodeString
-} from '../../../../src/check/arbitrary/StringArbitrary';
+} from '../../../../src/check/arbitrary/StringArbitrary.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
 
-import * as stubRng from '../../stubs/generators';
+import * as stubRng from '../../stubs/generators.js';
 
 const minMax = fc
   .tuple(fc.integer(0, 10000), fc.integer(0, 10000))

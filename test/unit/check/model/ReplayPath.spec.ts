@@ -1,6 +1,6 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { ReplayPath } from '../../../../src/check/model/ReplayPath';
+import { ReplayPath } from '../../../../src/check/model/ReplayPath.js';
 
 const biasedBoolean = fc.frequency(
   { weight: 1000, arbitrary: fc.constant(true) },

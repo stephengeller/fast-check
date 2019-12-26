@@ -1,5 +1,5 @@
-import * as fc from '../../../src/fast-check';
-import { FailureCommand, SuccessCommand } from './StepCommands';
+import * as fc from '../../../src/fast-check.js';
+import { FailureCommand, SuccessCommand } from './StepCommands.js';
 import {
   IncreaseCommand,
   DecreaseCommand,
@@ -7,7 +7,7 @@ import {
   OddCommand,
   CheckLessThanCommand,
   SuccessAlwaysCommand
-} from './CounterCommands';
+} from './CounterCommands.js';
 
 const seed = Date.now();
 describe(`CommandsArbitrary (seed: ${seed})`, () => {

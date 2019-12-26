@@ -1,5 +1,5 @@
-import { VerbosityLevel } from '../configuration/VerbosityLevel';
-import { ExecutionTree } from './ExecutionTree';
+import { VerbosityLevel } from '../configuration/VerbosityLevel.js';
+import { ExecutionTree } from './ExecutionTree.js';
 
 /**
  * Post-run details produced by {@link check}

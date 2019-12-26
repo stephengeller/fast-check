@@ -1,4 +1,4 @@
-import * as fc from '../../../src/fast-check';
+import * as fc from '../../../src/fast-check.js';
 declare function BigInt(n: number | bigint | string): bigint;
 
 const seed = Date.now();

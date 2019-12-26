@@ -1,10 +1,10 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { sample, statistics } from '../../../../src/check/runner/Sampler';
-import { cloneMethod, Shrinkable } from '../../../../src/fast-check';
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
+import { sample, statistics } from '../../../../src/check/runner/Sampler.js';
+import { cloneMethod, Shrinkable } from '../../../../src/fast-check.js';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
 
-import * as stubArb from '../../stubs/arbitraries';
+import * as stubArb from '../../stubs/arbitraries.js';
 
 const MAX_NUM_RUNS = 1000;
 describe('Sampler', () => {

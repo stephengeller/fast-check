@@ -1,8 +1,8 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { lorem } from '../../../../src/check/arbitrary/LoremArbitrary';
-import { Random } from '../../../../src/random/generator/Random';
+import { lorem } from '../../../../src/check/arbitrary/LoremArbitrary.js';
+import { Random } from '../../../../src/random/generator/Random.js';
 
 describe('LoremArbitrary', () => {
   describe('lorem', () => {

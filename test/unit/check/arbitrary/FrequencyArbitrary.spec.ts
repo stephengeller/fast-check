@@ -1,10 +1,10 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { frequency } from '../../../../src/check/arbitrary/FrequencyArbitrary';
-import { oneof } from '../../../../src/check/arbitrary/OneOfArbitrary';
+import { frequency } from '../../../../src/check/arbitrary/FrequencyArbitrary.js';
+import { oneof } from '../../../../src/check/arbitrary/OneOfArbitrary.js';
 
-import * as stubArb from '../../stubs/arbitraries';
-import * as stubRng from '../../stubs/generators';
+import * as stubArb from '../../stubs/arbitraries.js';
+import * as stubRng from '../../stubs/generators.js';
 
 describe('FrequencyArbitrary', () => {
   describe('frequency', () => {

@@ -1,5 +1,5 @@
-import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable';
-import { cloneMethod } from '../../../../../src/check/symbols';
+import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { cloneMethod } from '../../../../../src/check/symbols.js';
 
 describe('Shrinkable', () => {
   it('Should detect absence of [cloneMethod] method', () => {

@@ -1,6 +1,6 @@
 import { writeFileSync } from 'fs';
-import { generateProperty, generatePropertySpec } from './property';
-import { generateTuple, generateTupleSpec } from './tuple';
+import { generateProperty, generatePropertySpec } from './property.js';
+import { generateTuple, generateTupleSpec } from './tuple.js';
 
 const NUM_PARAMETERS = 22;
 

@@ -1,8 +1,8 @@
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
-import { IRawProperty } from '../../../../src/check/property/IRawProperty';
-import { UnbiasedProperty } from '../../../../src/check/property/UnbiasedProperty';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { IRawProperty } from '../../../../src/check/property/IRawProperty.js';
+import { UnbiasedProperty } from '../../../../src/check/property/UnbiasedProperty.js';
 
-import * as stubRng from '../../stubs/generators';
+import * as stubRng from '../../stubs/generators.js';
 
 describe('UnbiasedProperty', () => {
   it('Should forward parameters correctly (asynchronous property)', () => {

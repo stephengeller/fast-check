@@ -1,7 +1,7 @@
-import { Random } from '../../../random/generator/Random';
-import { Stream } from '../../../stream/Stream';
-import { Arbitrary } from './Arbitrary';
-import { Shrinkable } from './Shrinkable';
+import { Random } from '../../../random/generator/Random.js';
+import { Stream } from '../../../stream/Stream.js';
+import { Arbitrary } from './Arbitrary.js';
+import { Shrinkable } from './Shrinkable.js';
 
 /**
  * Abstract class able to generate and shrink values on type `T`

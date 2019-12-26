@@ -1,8 +1,8 @@
-import { Random } from '../../random/generator/Random';
-import { Stream } from '../../stream/Stream';
-import { bigUintN } from './BigIntArbitrary';
-import { Arbitrary } from './definition/Arbitrary';
-import { Shrinkable } from './definition/Shrinkable';
+import { Random } from '../../random/generator/Random.js';
+import { Stream } from '../../stream/Stream.js';
+import { bigUintN } from './BigIntArbitrary.js';
+import { Arbitrary } from './definition/Arbitrary.js';
+import { Shrinkable } from './definition/Shrinkable.js';
 
 export interface MixedCaseConstraints {
   /** Transform a character to its upper and/or lower case version */

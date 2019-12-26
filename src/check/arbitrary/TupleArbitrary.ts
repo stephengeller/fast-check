@@ -1,4 +1,4 @@
-import { tuple } from './TupleArbitrary.generated';
-import { genericTuple } from './TupleArbitrary.generic';
+import { tuple } from './TupleArbitrary.generated.js';
+import { genericTuple } from './TupleArbitrary.generic.js';
 
 export { tuple, genericTuple };

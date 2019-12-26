@@ -1,11 +1,11 @@
-import { decorateProperty } from '../../../../src/check/runner/DecorateProperty';
-import { IRawProperty } from '../../../../src/check/property/IRawProperty';
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
+import { decorateProperty } from '../../../../src/check/runner/DecorateProperty.js';
+import { IRawProperty } from '../../../../src/check/property/IRawProperty.js';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
 
 // Mocks
-import { SkipAfterProperty } from '../../../../src/check/property/SkipAfterProperty';
-import { TimeoutProperty } from '../../../../src/check/property/TimeoutProperty';
-import { UnbiasedProperty } from '../../../../src/check/property/UnbiasedProperty';
+import { SkipAfterProperty } from '../../../../src/check/property/SkipAfterProperty.js';
+import { TimeoutProperty } from '../../../../src/check/property/TimeoutProperty.js';
+import { UnbiasedProperty } from '../../../../src/check/property/UnbiasedProperty.js';
 jest.mock('../../../../src/check/property/SkipAfterProperty');
 jest.mock('../../../../src/check/property/TimeoutProperty');
 jest.mock('../../../../src/check/property/UnbiasedProperty');

@@ -1,10 +1,10 @@
-import { hash } from '../../utils/hash';
-import { stringify } from '../../utils/stringify';
-import { cloneMethod, hasCloneMethod } from '../symbols';
-import { array } from './ArrayArbitrary';
-import { Arbitrary } from './definition/Arbitrary';
-import { integer } from './IntegerArbitrary';
-import { tuple } from './TupleArbitrary';
+import { hash } from '../../utils/hash.js';
+import { stringify } from '../../utils/stringify.js';
+import { cloneMethod, hasCloneMethod } from '../symbols.js';
+import { array } from './ArrayArbitrary.js';
+import { Arbitrary } from './definition/Arbitrary.js';
+import { integer } from './IntegerArbitrary.js';
+import { tuple } from './TupleArbitrary.js';
 
 /**
  * For pure functions

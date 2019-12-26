@@ -1,8 +1,8 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { subarray, shuffledSubarray } from '../../../../src/check/arbitrary/SubarrayArbitrary';
+import { subarray, shuffledSubarray } from '../../../../src/check/arbitrary/SubarrayArbitrary.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
 
 const isOrderedSubarray = (originalArray: number[], subarray: number[]): boolean => {
   let idxOriginal = 0;

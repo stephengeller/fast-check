@@ -1,4 +1,4 @@
-import * as fc from '../../../src/fast-check';
+import * as fc from '../../../src/fast-check.js';
 
 type M1 = { count: number };
 type R1 = {};

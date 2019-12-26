@@ -1,10 +1,10 @@
-import { Random } from '../../random/generator/Random';
-import { Stream } from '../../stream/Stream';
-import { stringify } from '../../utils/stringify';
-import { cloneMethod } from '../symbols';
-import { Arbitrary } from './definition/Arbitrary';
-import { biasWrapper } from './definition/BiasedArbitraryWrapper';
-import { Shrinkable } from './definition/Shrinkable';
+import { Random } from '../../random/generator/Random.js';
+import { Stream } from '../../stream/Stream.js';
+import { stringify } from '../../utils/stringify.js';
+import { cloneMethod } from '../symbols.js';
+import { Arbitrary } from './definition/Arbitrary.js';
+import { biasWrapper } from './definition/BiasedArbitraryWrapper.js';
+import { Shrinkable } from './definition/Shrinkable.js';
 
 class StreamArbitrary<T> extends Arbitrary<Stream<T>> {
   constructor(readonly arb: Arbitrary<T>) {

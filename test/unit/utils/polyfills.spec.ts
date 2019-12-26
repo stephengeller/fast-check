@@ -1,4 +1,4 @@
-import * as fc from '../../../lib/fast-check';
+import * as fc from '../../../lib/fast-check.js';
 
 import {
   ObjectEntries,
@@ -9,7 +9,7 @@ import {
   StringPadStartImpl,
   StringFromCodePointLimitedImpl,
   StringFromCodePointLimited
-} from '../../../src/utils/polyfills';
+} from '../../../src/utils/polyfills.js';
 
 declare namespace Object {
   function entries(o: { [key: string]: any }): [string, any][];

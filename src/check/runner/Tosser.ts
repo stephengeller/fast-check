@@ -1,8 +1,8 @@
 import * as prand from 'pure-rand';
 
-import { Random } from '../../random/generator/Random';
-import { Shrinkable } from '../arbitrary/definition/Shrinkable';
-import { IRawProperty } from '../property/IRawProperty';
+import { Random } from '../../random/generator/Random.js';
+import { Shrinkable } from '../arbitrary/definition/Shrinkable.js';
+import { IRawProperty } from '../property/IRawProperty.js';
 
 /** @hidden */
 function lazyGenerate<Ts>(generator: IRawProperty<Ts>, rng: prand.RandomGenerator, idx: number): () => Shrinkable<Ts> {

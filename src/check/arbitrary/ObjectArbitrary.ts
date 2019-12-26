@@ -1,18 +1,18 @@
-import { Arbitrary } from './definition/Arbitrary';
+import { Arbitrary } from './definition/Arbitrary.js';
 
-import { stringify } from '../../utils/stringify';
-import { array } from './ArrayArbitrary';
-import { boolean } from './BooleanArbitrary';
-import { constant } from './ConstantArbitrary';
-import { dictionary, toObject } from './DictionaryArbitrary';
-import { double } from './FloatingPointArbitrary';
-import { frequency } from './FrequencyArbitrary';
-import { integer } from './IntegerArbitrary';
-import { memo, Memo } from './MemoArbitrary';
-import { oneof } from './OneOfArbitrary';
-import { set } from './SetArbitrary';
-import { string, unicodeString } from './StringArbitrary';
-import { tuple } from './TupleArbitrary';
+import { stringify } from '../../utils/stringify.js';
+import { array } from './ArrayArbitrary.js';
+import { boolean } from './BooleanArbitrary.js';
+import { constant } from './ConstantArbitrary.js';
+import { dictionary, toObject } from './DictionaryArbitrary.js';
+import { double } from './FloatingPointArbitrary.js';
+import { frequency } from './FrequencyArbitrary.js';
+import { integer } from './IntegerArbitrary.js';
+import { memo, Memo } from './MemoArbitrary.js';
+import { oneof } from './OneOfArbitrary.js';
+import { set } from './SetArbitrary.js';
+import { string, unicodeString } from './StringArbitrary.js';
+import { tuple } from './TupleArbitrary.js';
 
 export class ObjectConstraints {
   constructor(

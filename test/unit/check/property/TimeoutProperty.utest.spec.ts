@@ -1,8 +1,8 @@
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
-import { IRawProperty } from '../../../../src/check/property/IRawProperty';
-import { TimeoutProperty } from '../../../../src/check/property/TimeoutProperty';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { IRawProperty } from '../../../../src/check/property/IRawProperty.js';
+import { TimeoutProperty } from '../../../../src/check/property/TimeoutProperty.js';
 
-import * as stubRng from '../../stubs/generators';
+import * as stubRng from '../../stubs/generators.js';
 const mrng = () => stubRng.mutable.nocall();
 
 jest.useFakeTimers();

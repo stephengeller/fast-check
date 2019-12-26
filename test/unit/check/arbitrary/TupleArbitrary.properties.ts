@@ -1,6 +1,6 @@
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
-import { integer } from '../../../../src/check/arbitrary/IntegerArbitrary';
-import { Random } from '../../../../src/random/generator/Random';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { integer } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { Random } from '../../../../src/random/generator/Random.js';
 
 export class DummyArbitrary extends Arbitrary<string> {
   constructor(public id: number) {

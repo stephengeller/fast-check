@@ -1,4 +1,4 @@
-import * as fc from '../../src/fast-check';
+import * as fc from '../../src/fast-check.js';
 
 const seed = Date.now();
 describe(`SkipAllAfterTime (seed: ${seed})`, () => {

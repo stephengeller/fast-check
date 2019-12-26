@@ -1,6 +1,6 @@
-import { fullUnicode } from '../CharacterArbitrary';
-import { frequency } from '../FrequencyArbitrary';
-import { mapToConstant } from '../MapToConstantArbitrary';
+import { fullUnicode } from '../CharacterArbitrary.js';
+import { frequency } from '../FrequencyArbitrary.js';
+import { mapToConstant } from '../MapToConstantArbitrary.js';
 
 /** @hidden */
 const lowerCaseMapper = { num: 26, build: (v: number) => String.fromCharCode(v + 0x61) };

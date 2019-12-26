@@ -1,4 +1,4 @@
-import { asyncProperty } from './AsyncProperty.generated';
-import { IAsyncProperty } from './AsyncProperty.generic';
+import { asyncProperty } from './AsyncProperty.generated.js';
+import { IAsyncProperty } from './AsyncProperty.generic.js';
 
 export { asyncProperty, IAsyncProperty };

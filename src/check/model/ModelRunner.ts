@@ -1,7 +1,7 @@
-import { AsyncCommand } from './command/AsyncCommand';
-import { Command } from './command/Command';
-import { ICommand } from './command/ICommand';
-import { CommandsIterable } from './commands/CommandsIterable';
+import { AsyncCommand } from './command/AsyncCommand.js';
+import { Command } from './command/Command.js';
+import { ICommand } from './command/ICommand.js';
+import { CommandsIterable } from './commands/CommandsIterable.js';
 
 type Setup<Model, Real> = () => { model: Model; real: Real };
 type AsyncSetup<Model, Real> = () => Promise<{ model: Model; real: Real }>;

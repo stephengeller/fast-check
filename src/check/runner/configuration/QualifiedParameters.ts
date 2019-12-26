@@ -1,6 +1,6 @@
 import prand, { RandomGenerator } from 'pure-rand';
-import { Parameters } from './Parameters';
-import { VerbosityLevel } from './VerbosityLevel';
+import { Parameters } from './Parameters.js';
+import { VerbosityLevel } from './VerbosityLevel.js';
 
 /**
  * @hidden

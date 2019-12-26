@@ -6,6 +6,7 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint'
   ],
+  plugins: ['import'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
@@ -15,6 +16,7 @@ module.exports = {
     '@typescript-eslint/no-namespace': 'warn',
     '@typescript-eslint/no-this-alias': 'warn',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-    '@typescript-eslint/no-use-before-define': 'warn'
+    '@typescript-eslint/no-use-before-define': 'warn',
+    'import/extensions': ['error', 'ignorePackages']
   }
 };

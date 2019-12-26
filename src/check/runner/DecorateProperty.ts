@@ -1,8 +1,8 @@
-import { IRawProperty } from '../property/IRawProperty';
-import { SkipAfterProperty } from '../property/SkipAfterProperty';
-import { TimeoutProperty } from '../property/TimeoutProperty';
-import { UnbiasedProperty } from '../property/UnbiasedProperty';
-import { QualifiedParameters } from './configuration/QualifiedParameters';
+import { IRawProperty } from '../property/IRawProperty.js';
+import { SkipAfterProperty } from '../property/SkipAfterProperty.js';
+import { TimeoutProperty } from '../property/TimeoutProperty.js';
+import { UnbiasedProperty } from '../property/UnbiasedProperty.js';
+import { QualifiedParameters } from './configuration/QualifiedParameters.js';
 
 /** @hidden */
 type MinimalQualifiedParameters<Ts> = Pick<

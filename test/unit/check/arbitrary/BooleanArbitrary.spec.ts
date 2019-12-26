@@ -1,8 +1,8 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { boolean } from '../../../../src/check/arbitrary/BooleanArbitrary';
+import { boolean } from '../../../../src/check/arbitrary/BooleanArbitrary.js';
 
-import * as stubRng from '../../stubs/generators';
+import * as stubRng from '../../stubs/generators.js';
 
 describe('BooleanArbitrary', () => {
   describe('boolean', () => {

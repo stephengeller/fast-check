@@ -1,6 +1,6 @@
-import { uuid, uuidV } from '../../../../src/check/arbitrary/UuidArbitrary';
-import * as genericHelper from './generic/GenericArbitraryHelper';
-import fc from '../../../../lib/fast-check';
+import { uuid, uuidV } from '../../../../src/check/arbitrary/UuidArbitrary.js';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
+import fc from '../../../../lib/fast-check.js';
 
 describe('UuidArbitrary', () => {
   describe('uuid', () => {

@@ -1,5 +1,5 @@
-import { Random } from '../../../random/generator/Random';
-import { Shrinkable } from './Shrinkable';
+import { Random } from '../../../random/generator/Random.js';
+import { Shrinkable } from './Shrinkable.js';
 
 /**
  * Abstract class able to generate values on type `T`

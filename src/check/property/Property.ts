@@ -1,4 +1,4 @@
-import { property } from './Property.generated';
-import { IProperty } from './Property.generic';
+import { property } from './Property.generated.js';
+import { IProperty } from './Property.generic.js';
 
 export { property, IProperty };

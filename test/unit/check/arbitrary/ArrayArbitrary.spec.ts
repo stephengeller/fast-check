@@ -1,16 +1,16 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
-import { array } from '../../../../src/check/arbitrary/ArrayArbitrary';
-import { context } from '../../../../src/check/arbitrary/ContextArbitrary';
-import { nat } from '../../../../src/check/arbitrary/IntegerArbitrary';
-import { Random } from '../../../../src/random/generator/Random';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { array } from '../../../../src/check/arbitrary/ArrayArbitrary.js';
+import { context } from '../../../../src/check/arbitrary/ContextArbitrary.js';
+import { nat } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { Random } from '../../../../src/random/generator/Random.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
 
-import * as stubRng from '../../stubs/generators';
-import { hasCloneMethod, cloneMethod } from '../../../../src/check/symbols';
+import * as stubRng from '../../stubs/generators.js';
+import { hasCloneMethod, cloneMethod } from '../../../../src/check/symbols.js';
 
 class DummyArbitrary extends Arbitrary<{ key: number }> {
   constructor(public value: () => number) {

@@ -1,6 +1,6 @@
-import { Random } from '../../random/generator/Random';
-import { Arbitrary } from './definition/Arbitrary';
-import { Shrinkable } from './definition/Shrinkable';
+import { Random } from '../../random/generator/Random.js';
+import { Arbitrary } from './definition/Arbitrary.js';
+import { Shrinkable } from './definition/Shrinkable.js';
 
 /** @hidden */
 export class LazyArbitrary extends Arbitrary<any> {

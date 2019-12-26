@@ -1,4 +1,4 @@
-import { Stream, stream } from '../../../stream/Stream';
+import { Stream, stream } from '../../../stream/Stream.js';
 
 /** @hidden */
 type Numeric = number | bigint;

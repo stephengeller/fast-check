@@ -1,9 +1,9 @@
-import { IRawProperty } from '../../../../src/check/property/IRawProperty';
-import { SkipAfterProperty } from '../../../../src/check/property/SkipAfterProperty';
+import { IRawProperty } from '../../../../src/check/property/IRawProperty.js';
+import { SkipAfterProperty } from '../../../../src/check/property/SkipAfterProperty.js';
 
 // Mocks
-import { Random } from '../../../../src/random/generator/Random';
-import { PreconditionFailure } from '../../../../src/check/precondition/PreconditionFailure';
+import { Random } from '../../../../src/random/generator/Random.js';
+import { PreconditionFailure } from '../../../../src/check/precondition/PreconditionFailure.js';
 jest.mock('../../../../src/random/generator/Random');
 
 function buildProperty() {

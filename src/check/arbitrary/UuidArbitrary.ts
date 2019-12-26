@@ -1,7 +1,7 @@
-import { StringPadStart } from '../../utils/polyfills';
-import { Arbitrary } from './definition/Arbitrary';
-import { integer, nat } from './IntegerArbitrary';
-import { tuple } from './TupleArbitrary';
+import { StringPadStart } from '../../utils/polyfills.js';
+import { Arbitrary } from './definition/Arbitrary.js';
+import { integer, nat } from './IntegerArbitrary.js';
+import { tuple } from './TupleArbitrary.js';
 
 /** @hidden */
 const padEight = (arb: Arbitrary<number>) => arb.map(n => StringPadStart(n.toString(16), 8, '0'));

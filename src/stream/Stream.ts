@@ -1,4 +1,4 @@
-import { filterHelper, flatMapHelper, joinHelper, mapHelper, nilHelper, takeWhileHelper } from './StreamHelpers';
+import { filterHelper, flatMapHelper, joinHelper, mapHelper, nilHelper, takeWhileHelper } from './StreamHelpers.js';
 
 export class Stream<T> implements IterableIterator<T> {
   /**

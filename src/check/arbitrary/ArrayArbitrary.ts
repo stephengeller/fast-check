@@ -1,11 +1,11 @@
-import { Random } from '../../random/generator/Random';
-import { Stream } from '../../stream/Stream';
-import { cloneMethod } from '../symbols';
-import { Arbitrary } from './definition/Arbitrary';
-import { ArbitraryWithShrink } from './definition/ArbitraryWithShrink';
-import { biasWrapper } from './definition/BiasedArbitraryWrapper';
-import { Shrinkable } from './definition/Shrinkable';
-import { integer } from './IntegerArbitrary';
+import { Random } from '../../random/generator/Random.js';
+import { Stream } from '../../stream/Stream.js';
+import { cloneMethod } from '../symbols.js';
+import { Arbitrary } from './definition/Arbitrary.js';
+import { ArbitraryWithShrink } from './definition/ArbitraryWithShrink.js';
+import { biasWrapper } from './definition/BiasedArbitraryWrapper.js';
+import { Shrinkable } from './definition/Shrinkable.js';
+import { integer } from './IntegerArbitrary.js';
 
 /** @hidden */
 class ArrayArbitrary<T> extends Arbitrary<T[]> {

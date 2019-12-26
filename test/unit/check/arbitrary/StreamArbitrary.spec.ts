@@ -1,14 +1,14 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { context } from '../../../../src/check/arbitrary/ContextArbitrary';
-import { nat } from '../../../../src/check/arbitrary/IntegerArbitrary';
-import { infiniteStream } from '../../../../src/check/arbitrary/StreamArbitrary';
-import { Stream } from '../../../../src/stream/Stream';
+import { context } from '../../../../src/check/arbitrary/ContextArbitrary.js';
+import { nat } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { infiniteStream } from '../../../../src/check/arbitrary/StreamArbitrary.js';
+import { Stream } from '../../../../src/stream/Stream.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
 
-import * as stubRng from '../../stubs/generators';
-import { hasCloneMethod, cloneMethod, WithCloneMethod } from '../../../../src/check/symbols';
+import * as stubRng from '../../stubs/generators.js';
+import { hasCloneMethod, cloneMethod, WithCloneMethod } from '../../../../src/check/symbols.js';
 
 describe('StreamArbitrary', () => {
   describe('infiniteStream', () => {

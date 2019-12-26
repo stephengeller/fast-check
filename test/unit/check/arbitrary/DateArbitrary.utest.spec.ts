@@ -1,11 +1,11 @@
-import { date } from '../../../../src/check/arbitrary/DateArbitrary';
-import * as stubRng from '../../stubs/generators';
-import { mocked } from 'ts-jest/utils';
-import * as fc from '../../../../lib/fast-check';
+import { date } from '../../../../src/check/arbitrary/DateArbitrary.js';
+import * as stubRng from '../../stubs/generators.js';
+import { mocked } from 'ts-jest/utils/index.js';
+import * as fc from '../../../../lib/fast-check.js';
 
 jest.mock('../../../../src/check/arbitrary/IntegerArbitrary');
-import * as IntegerArbitraryMock from '../../../../src/check/arbitrary/IntegerArbitrary';
-import { arbitraryFor } from './generic/ArbitraryBuilder';
+import * as IntegerArbitraryMock from '../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { arbitraryFor } from './generic/ArbitraryBuilder.js';
 
 const mrng = () => stubRng.mutable.nocall();
 

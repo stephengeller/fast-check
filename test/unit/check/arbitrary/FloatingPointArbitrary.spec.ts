@@ -1,12 +1,12 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
-import { Random } from '../../../../src/random/generator/Random';
-import { float, double } from '../../../../src/check/arbitrary/FloatingPointArbitrary';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { Random } from '../../../../src/random/generator/Random.js';
+import { float, double } from '../../../../src/check/arbitrary/FloatingPointArbitrary.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
 
-import * as stubRng from '../../stubs/generators';
+import * as stubRng from '../../stubs/generators.js';
 
 const MAX_TRIES = 100;
 describe('FloatingPointArbitrary', () => {

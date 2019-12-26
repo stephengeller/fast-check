@@ -1,16 +1,16 @@
-import * as fc from '../../../../../lib/fast-check';
+import * as fc from '../../../../../lib/fast-check.js';
 
-import { constant } from '../../../../../src/check/arbitrary/ConstantArbitrary';
-import { Arbitrary } from '../../../../../src/check/arbitrary/definition/Arbitrary';
-import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable';
-import { nat } from '../../../../../src/check/arbitrary/IntegerArbitrary';
-import { tuple } from '../../../../../src/check/arbitrary/TupleArbitrary';
-import { Random } from '../../../../../src/random/generator/Random';
-import { stream } from '../../../../../src/stream/Stream';
+import { constant } from '../../../../../src/check/arbitrary/ConstantArbitrary.js';
+import { Arbitrary } from '../../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { nat } from '../../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { tuple } from '../../../../../src/check/arbitrary/TupleArbitrary.js';
+import { Random } from '../../../../../src/random/generator/Random.js';
+import { stream } from '../../../../../src/stream/Stream.js';
 
-import * as genericHelper from '../generic/GenericArbitraryHelper';
+import * as genericHelper from '../generic/GenericArbitraryHelper.js';
 
-import * as stubRng from '../../../stubs/generators';
+import * as stubRng from '../../../stubs/generators.js';
 
 class ForwardArbitrary extends Arbitrary<number> {
   private shrinkableFor(v: number): Shrinkable<number> {

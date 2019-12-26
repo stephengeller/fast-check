@@ -1,4 +1,4 @@
-import * as fc from '../../../src/fast-check';
+import * as fc from '../../../src/fast-check.js';
 import { URL } from 'url';
 
 const seed = Date.now();

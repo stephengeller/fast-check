@@ -1,5 +1,5 @@
-import * as fc from '../../src/fast-check';
-import { Shrinkable } from '../../src/fast-check';
+import * as fc from '../../src/fast-check.js';
+import { Shrinkable } from '../../src/fast-check.js';
 
 const computeMaximalDepth = () => {
   // Compute the maximal call stack size

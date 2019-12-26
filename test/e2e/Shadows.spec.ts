@@ -1,4 +1,4 @@
-import * as fc from '../../src/fast-check';
+import * as fc from '../../src/fast-check.js';
 
 // Code under tests
 // Based on the CodinGame https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1

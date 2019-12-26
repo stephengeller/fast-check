@@ -1,17 +1,17 @@
-import { Random } from '../../../random/generator/Random';
-import { Stream } from '../../../stream/Stream';
-import { Arbitrary } from '../../arbitrary/definition/Arbitrary';
-import { ArbitraryWithShrink } from '../../arbitrary/definition/ArbitraryWithShrink';
-import { Shrinkable } from '../../arbitrary/definition/Shrinkable';
-import { nat } from '../../arbitrary/IntegerArbitrary';
-import { oneof } from '../../arbitrary/OneOfArbitrary';
-import { AsyncCommand } from '../command/AsyncCommand';
-import { Command } from '../command/Command';
-import { ICommand } from '../command/ICommand';
-import { ReplayPath } from '../ReplayPath';
-import { CommandsIterable } from './CommandsIterable';
-import { CommandsSettings } from './CommandsSettings';
-import { CommandWrapper } from './CommandWrapper';
+import { Random } from '../../../random/generator/Random.js';
+import { Stream } from '../../../stream/Stream.js';
+import { Arbitrary } from '../../arbitrary/definition/Arbitrary.js';
+import { ArbitraryWithShrink } from '../../arbitrary/definition/ArbitraryWithShrink.js';
+import { Shrinkable } from '../../arbitrary/definition/Shrinkable.js';
+import { nat } from '../../arbitrary/IntegerArbitrary.js';
+import { oneof } from '../../arbitrary/OneOfArbitrary.js';
+import { AsyncCommand } from '../command/AsyncCommand.js';
+import { Command } from '../command/Command.js';
+import { ICommand } from '../command/ICommand.js';
+import { ReplayPath } from '../ReplayPath.js';
+import { CommandsIterable } from './CommandsIterable.js';
+import { CommandsSettings } from './CommandsSettings.js';
+import { CommandWrapper } from './CommandWrapper.js';
 
 /** @hidden */
 class CommandsArbitrary<Model extends object, Real, RunResult, CheckAsync extends boolean> extends Arbitrary<

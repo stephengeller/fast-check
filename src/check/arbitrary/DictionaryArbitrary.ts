@@ -1,7 +1,7 @@
-import { Arbitrary } from './definition/Arbitrary';
+import { Arbitrary } from './definition/Arbitrary.js';
 
-import { set } from './SetArbitrary';
-import { tuple } from './TupleArbitrary';
+import { set } from './SetArbitrary.js';
+import { tuple } from './TupleArbitrary.js';
 
 /** @hidden */
 function toObject<T>(items: [string, T][]): { [key: string]: T } {

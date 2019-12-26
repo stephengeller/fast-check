@@ -1,6 +1,6 @@
-import { domain } from '../../../../src/check/arbitrary/HostArbitrary';
+import { domain } from '../../../../src/check/arbitrary/HostArbitrary.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
 
 const isValidDomain = (t: string) => {
   // According to https://www.ietf.org/rfc/rfc1034.txt

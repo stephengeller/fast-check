@@ -1,8 +1,8 @@
-import { array } from './ArrayArbitrary';
-import { buildLowerAlphaNumericArb } from './helpers/SpecificCharacterRange';
-import { domain } from './HostArbitrary';
-import { stringOf } from './StringArbitrary';
-import { tuple } from './TupleArbitrary';
+import { array } from './ArrayArbitrary.js';
+import { buildLowerAlphaNumericArb } from './helpers/SpecificCharacterRange.js';
+import { domain } from './HostArbitrary.js';
+import { stringOf } from './StringArbitrary.js';
+import { tuple } from './TupleArbitrary.js';
 
 /**
  * For email address

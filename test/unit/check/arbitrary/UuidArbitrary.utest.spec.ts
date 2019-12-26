@@ -1,12 +1,12 @@
-import { uuid, uuidV } from '../../../../src/check/arbitrary/UuidArbitrary';
-import * as stubRng from '../../stubs/generators';
-import { mocked } from 'ts-jest/utils';
+import { uuid, uuidV } from '../../../../src/check/arbitrary/UuidArbitrary.js';
+import * as stubRng from '../../stubs/generators.js';
+import { mocked } from 'ts-jest/utils/index.js';
 
 jest.mock('../../../../src/check/arbitrary/IntegerArbitrary');
 jest.mock('../../../../src/check/arbitrary/TupleArbitrary');
-import * as IntegerArbitraryMock from '../../../../src/check/arbitrary/IntegerArbitrary';
-import * as TupleArbitraryMock from '../../../../src/check/arbitrary/TupleArbitrary';
-import { arbitraryFor } from './generic/ArbitraryBuilder';
+import * as IntegerArbitraryMock from '../../../../src/check/arbitrary/IntegerArbitrary.js';
+import * as TupleArbitraryMock from '../../../../src/check/arbitrary/TupleArbitrary.js';
+import { arbitraryFor } from './generic/ArbitraryBuilder.js';
 
 const mrng = () => stubRng.mutable.nocall();
 

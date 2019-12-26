@@ -1,4 +1,4 @@
-import { toRoman, fromRoman, MaxRoman, LettersValue, NumLetters } from './src/roman';
+import { toRoman, fromRoman, MaxRoman, LettersValue, NumLetters } from './src/roman.js';
 import fc from 'fast-check';
 
 describe('toRoman', () => {

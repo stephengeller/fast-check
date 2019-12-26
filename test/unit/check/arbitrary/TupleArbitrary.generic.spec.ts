@@ -1,18 +1,18 @@
-import * as fc from '../../../../lib/fast-check';
+import * as fc from '../../../../lib/fast-check.js';
 import * as prand from 'pure-rand';
-import { dummy } from './TupleArbitrary.properties';
+import { dummy } from './TupleArbitrary.properties.js';
 
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
-import { context } from '../../../../src/check/arbitrary/ContextArbitrary';
-import { integer, nat } from '../../../../src/check/arbitrary/IntegerArbitrary';
-import { genericTuple } from '../../../../src/check/arbitrary/TupleArbitrary';
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
-import { hasCloneMethod, cloneMethod } from '../../../../src/check/symbols';
-import { stream } from '../../../../src/stream/Stream';
-import { Random } from '../../../../src/random/generator/Random';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { context } from '../../../../src/check/arbitrary/ContextArbitrary.js';
+import { integer, nat } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { genericTuple } from '../../../../src/check/arbitrary/TupleArbitrary.js';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
+import { hasCloneMethod, cloneMethod } from '../../../../src/check/symbols.js';
+import { stream } from '../../../../src/stream/Stream.js';
+import { Random } from '../../../../src/random/generator/Random.js';
 
-import * as genericHelper from './generic/GenericArbitraryHelper';
-import * as stubRng from '../../stubs/generators';
+import * as genericHelper from './generic/GenericArbitraryHelper.js';
+import * as stubRng from '../../stubs/generators.js';
 
 describe('TupleArbitrary', () => {
   describe('genericTuple', () => {
