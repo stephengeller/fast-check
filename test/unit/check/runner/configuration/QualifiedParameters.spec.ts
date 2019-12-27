@@ -1,9 +1,9 @@
-import * as fc from '../../../../../lib/fast-check.js';
+import * as fc from '../../../../../lib/fast-check';
 import * as prand from 'pure-rand';
 
-import { QualifiedParameters } from '../../../../../src/check/runner/configuration/QualifiedParameters.js';
-import { RandomType } from '../../../../../src/check/runner/configuration/RandomType.js';
-import { VerbosityLevel } from '../../../../../src/check/runner/configuration/VerbosityLevel.js';
+import { QualifiedParameters } from '../../../../../src/check/runner/configuration/QualifiedParameters';
+import { RandomType } from '../../../../../src/check/runner/configuration/RandomType';
+import { VerbosityLevel } from '../../../../../src/check/runner/configuration/VerbosityLevel';
 
 const parametersArbitrary = fc.record(
   {

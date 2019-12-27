@@ -1,6 +1,6 @@
-import { Random } from '../../random/generator/Random.js';
-import { Shrinkable } from '../arbitrary/definition/Shrinkable.js';
-import { PreconditionFailure } from '../precondition/PreconditionFailure.js';
+import { Random } from '../../random/generator/Random';
+import { Shrinkable } from '../arbitrary/definition/Shrinkable';
+import { PreconditionFailure } from '../precondition/PreconditionFailure';
 
 /**
  * Property

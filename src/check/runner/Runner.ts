@@ -1,21 +1,21 @@
-import { stream } from '../../stream/Stream.js';
-import { Shrinkable } from '../arbitrary/definition/Shrinkable.js';
-import { PreconditionFailure } from '../precondition/PreconditionFailure.js';
-import { IRawProperty } from '../property/IRawProperty.js';
-import { readConfigureGlobal } from './configuration/GlobalParameters.js';
-import { Parameters } from './configuration/Parameters.js';
-import { QualifiedParameters } from './configuration/QualifiedParameters.js';
-import { VerbosityLevel } from './configuration/VerbosityLevel.js';
-import { decorateProperty } from './DecorateProperty.js';
-import { RunDetails } from './reporter/RunDetails.js';
-import { RunExecution } from './reporter/RunExecution.js';
-import { RunnerIterator } from './RunnerIterator.js';
-import { SourceValuesIterator } from './SourceValuesIterator.js';
-import { toss } from './Tosser.js';
-import { pathWalk } from './utils/PathWalker.js';
-import { throwIfFailed } from './utils/RunDetailsFormatter.js';
-import { IAsyncProperty } from '../property/AsyncProperty.js';
-import { IProperty } from '../property/Property.js';
+import { stream } from '../../stream/Stream';
+import { Shrinkable } from '../arbitrary/definition/Shrinkable';
+import { PreconditionFailure } from '../precondition/PreconditionFailure';
+import { IRawProperty } from '../property/IRawProperty';
+import { readConfigureGlobal } from './configuration/GlobalParameters';
+import { Parameters } from './configuration/Parameters';
+import { QualifiedParameters } from './configuration/QualifiedParameters';
+import { VerbosityLevel } from './configuration/VerbosityLevel';
+import { decorateProperty } from './DecorateProperty';
+import { RunDetails } from './reporter/RunDetails';
+import { RunExecution } from './reporter/RunExecution';
+import { RunnerIterator } from './RunnerIterator';
+import { SourceValuesIterator } from './SourceValuesIterator';
+import { toss } from './Tosser';
+import { pathWalk } from './utils/PathWalker';
+import { throwIfFailed } from './utils/RunDetailsFormatter';
+import { IAsyncProperty } from '../property/AsyncProperty';
+import { IProperty } from '../property/Property';
 
 /** @hidden */
 function runIt<Ts>(

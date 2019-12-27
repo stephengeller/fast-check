@@ -1,4 +1,4 @@
-import { Stream, stream } from '../../../src/stream/Stream.js';
+import { Stream, stream } from '../../../src/stream/Stream';
 
 describe('Stream', () => {
   describe('constructor', () => {

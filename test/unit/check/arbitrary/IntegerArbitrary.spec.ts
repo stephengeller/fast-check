@@ -1,11 +1,11 @@
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
-import { integer, nat, maxSafeNat, maxSafeInteger } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
+import { integer, nat, maxSafeNat, maxSafeInteger } from '../../../../src/check/arbitrary/IntegerArbitrary';
 
-import * as genericHelper from './generic/GenericArbitraryHelper.js';
+import * as genericHelper from './generic/GenericArbitraryHelper';
 
-import * as stubRng from '../../stubs/generators.js';
+import * as stubRng from '../../stubs/generators';
 
 const isStrictlySmallerInteger = (v1: number, v2: number) => Math.abs(v1) < Math.abs(v2);
 

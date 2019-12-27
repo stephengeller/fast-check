@@ -1,6 +1,6 @@
-import { StringFromCodePointLimited } from '../../utils/polyfills.js';
-import { Arbitrary } from './definition/Arbitrary.js';
-import { integer } from './IntegerArbitrary.js';
+import { StringFromCodePointLimited } from '../../utils/polyfills';
+import { Arbitrary } from './definition/Arbitrary';
+import { integer } from './IntegerArbitrary';
 
 /** @hidden */
 function CharacterArbitrary(min: number, max: number, mapToCode: (v: number) => number) {

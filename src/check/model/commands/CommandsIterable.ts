@@ -1,5 +1,5 @@
-import { cloneMethod } from '../../symbols.js';
-import { CommandWrapper } from './CommandWrapper.js';
+import { cloneMethod } from '../../symbols';
+import { CommandWrapper } from './CommandWrapper';
 
 /** @hidden */
 export class CommandsIterable<Model extends object, Real, RunResult, CheckAsync extends boolean = false>

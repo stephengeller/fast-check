@@ -1,9 +1,9 @@
-import * as fc from '../../../../../lib/fast-check.js';
+import * as fc from '../../../../../lib/fast-check';
 
-import { CommandWrapper } from '../../../../../src/check/model/commands/CommandWrapper.js';
-import { CommandsIterable } from '../../../../../src/check/model/commands/CommandsIterable.js';
-import { Command } from '../../../../../src/check/model/command/Command.js';
-import { cloneMethod } from '../../../../../src/check/symbols.js';
+import { CommandWrapper } from '../../../../../src/check/model/commands/CommandWrapper';
+import { CommandsIterable } from '../../../../../src/check/model/commands/CommandsIterable';
+import { Command } from '../../../../../src/check/model/command/Command';
+import { cloneMethod } from '../../../../../src/check/symbols';
 
 type Model = {};
 type Real = {};

@@ -1,8 +1,8 @@
-import { stringify } from '../../../utils/stringify.js';
-import { VerbosityLevel } from '../configuration/VerbosityLevel.js';
-import { ExecutionStatus } from '../reporter/ExecutionStatus.js';
-import { ExecutionTree } from '../reporter/ExecutionTree.js';
-import { RunDetails } from '../reporter/RunDetails.js';
+import { stringify } from '../../../utils/stringify';
+import { VerbosityLevel } from '../configuration/VerbosityLevel';
+import { ExecutionStatus } from '../reporter/ExecutionStatus';
+import { ExecutionTree } from '../reporter/ExecutionTree';
+import { RunDetails } from '../reporter/RunDetails';
 
 /** @hidden */
 function formatHints(hints: string[]): string {

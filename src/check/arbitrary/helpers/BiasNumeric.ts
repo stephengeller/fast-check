@@ -1,4 +1,4 @@
-import { Arbitrary } from '../definition/Arbitrary.js';
+import { Arbitrary } from '../definition/Arbitrary';
 
 /** @hidden */
 type Numeric = number | bigint;

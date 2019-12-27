@@ -1,10 +1,10 @@
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
-import { set, buildCompareFilter } from '../../../../src/check/arbitrary/SetArbitrary.js';
-import { nat } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
+import { set, buildCompareFilter } from '../../../../src/check/arbitrary/SetArbitrary';
+import { nat } from '../../../../src/check/arbitrary/IntegerArbitrary';
 
-import * as genericHelper from './generic/GenericArbitraryHelper.js';
+import * as genericHelper from './generic/GenericArbitraryHelper';
 
 const customMapper = (v: number) => {
   return { key: v };

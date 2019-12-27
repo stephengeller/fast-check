@@ -1,7 +1,7 @@
-import { Arbitrary } from '../../../src/check/arbitrary/definition/Arbitrary.js';
-import { Shrinkable } from '../../../src/check/arbitrary/definition/Shrinkable.js';
-import { Random } from '../../../src/random/generator/Random.js';
-import { stream } from '../../../src/stream/Stream.js';
+import { Arbitrary } from '../../../src/check/arbitrary/definition/Arbitrary';
+import { Shrinkable } from '../../../src/check/arbitrary/definition/Shrinkable';
+import { Random } from '../../../src/random/generator/Random';
+import { stream } from '../../../src/stream/Stream';
 
 /**
  * CounterArbitrary

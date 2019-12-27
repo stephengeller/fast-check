@@ -1,4 +1,4 @@
-import fc from '../../src/fast-check.js';
+import fc from '../../src/fast-check';
 //declare function BigInt(n: number | bigint | string): bigint;
 
 const testFunc = (value: unknown) => {

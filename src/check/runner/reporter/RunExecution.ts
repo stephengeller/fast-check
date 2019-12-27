@@ -1,7 +1,7 @@
-import { VerbosityLevel } from '../configuration/VerbosityLevel.js';
-import { ExecutionStatus } from './ExecutionStatus.js';
-import { ExecutionTree } from './ExecutionTree.js';
-import { RunDetails } from './RunDetails.js';
+import { VerbosityLevel } from '../configuration/VerbosityLevel';
+import { ExecutionStatus } from './ExecutionStatus';
+import { ExecutionTree } from './ExecutionTree';
+import { RunDetails } from './RunDetails';
 
 /**
  * @hidden

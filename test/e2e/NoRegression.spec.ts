@@ -1,11 +1,11 @@
-import fc from '../../src/fast-check.js';
+import fc from '../../src/fast-check';
 import {
   IncreaseCommand,
   DecreaseCommand,
   EvenCommand,
   OddCommand,
   CheckLessThanCommand
-} from './model/CounterCommands.js';
+} from './model/CounterCommands';
 
 const testFunc = (value: unknown) => {
   const repr = fc.stringify(value);

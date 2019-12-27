@@ -1,4 +1,4 @@
-import * as fc from '../../../src/fast-check.js';
+import * as fc from '../../../src/fast-check';
 
 const src = [1, 25, 42, 0, -12];
 const seed = Date.now();

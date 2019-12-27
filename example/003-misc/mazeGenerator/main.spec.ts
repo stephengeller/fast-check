@@ -1,4 +1,4 @@
-import { mazeGenerator, CellType, Point } from './src/mazeGenerator.js';
+import { mazeGenerator, CellType, Point } from './src/mazeGenerator';
 import fc from 'fast-check';
 import * as _ from 'lodash';
 

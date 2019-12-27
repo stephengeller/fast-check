@@ -1,9 +1,9 @@
-import { LazyArbitrary, letrec } from '../../../../src/check/arbitrary/LetRecArbitrary.js';
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
-import { Random } from '../../../../src/random/generator/Random.js';
+import { LazyArbitrary, letrec } from '../../../../src/check/arbitrary/LetRecArbitrary';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
+import { Random } from '../../../../src/random/generator/Random';
 
-import * as stubRng from '../../stubs/generators.js';
+import * as stubRng from '../../stubs/generators';
 
 describe('LetRecArbitrary', () => {
   describe('letrec', () => {

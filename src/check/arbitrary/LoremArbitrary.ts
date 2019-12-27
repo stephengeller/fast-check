@@ -1,7 +1,7 @@
-import { array } from './ArrayArbitrary.js';
-import { constant } from './ConstantArbitrary.js';
-import { Arbitrary } from './definition/Arbitrary.js';
-import { frequency } from './FrequencyArbitrary.js';
+import { array } from './ArrayArbitrary';
+import { constant } from './ConstantArbitrary';
+import { Arbitrary } from './definition/Arbitrary';
+import { frequency } from './FrequencyArbitrary';
 
 /**
  * @hidden

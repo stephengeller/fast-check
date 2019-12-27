@@ -1,6 +1,6 @@
-import { ArrayArbitrary } from './ArrayArbitrary.js';
-import { Arbitrary } from './definition/Arbitrary.js';
-import { Shrinkable } from './definition/Shrinkable.js';
+import { ArrayArbitrary } from './ArrayArbitrary';
+import { Arbitrary } from './definition/Arbitrary';
+import { Shrinkable } from './definition/Shrinkable';
 
 /** @hidden */
 function subArrayContains<T>(tab: T[], upperBound: number, includeValue: (v: T) => boolean): boolean {

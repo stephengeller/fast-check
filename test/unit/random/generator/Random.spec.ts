@@ -1,7 +1,7 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { Random } from '../../../../src/random/generator/Random.js';
+import { Random } from '../../../../src/random/generator/Random';
 
 const MAX_SIZE = 2048;
 describe('Random', () => {

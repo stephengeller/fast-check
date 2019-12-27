@@ -1,7 +1,7 @@
-import { Arbitrary } from './definition/Arbitrary.js';
+import { Arbitrary } from './definition/Arbitrary';
 
-import { option } from './OptionArbitrary.js';
-import { genericTuple } from './TupleArbitrary.js';
+import { option } from './OptionArbitrary';
+import { genericTuple } from './TupleArbitrary';
 
 export interface RecordConstraints {
   /** Allow to remove keys from the generated record */

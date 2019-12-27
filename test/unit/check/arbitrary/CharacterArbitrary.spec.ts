@@ -6,9 +6,9 @@ import {
   hexa,
   base64,
   fullUnicode
-} from '../../../../src/check/arbitrary/CharacterArbitrary.js';
+} from '../../../../src/check/arbitrary/CharacterArbitrary';
 
-import * as genericHelper from './generic/GenericArbitraryHelper.js';
+import * as genericHelper from './generic/GenericArbitraryHelper';
 
 const remapCharToIndex = (c: string): number => {
   const cp = c.codePointAt(0)!;

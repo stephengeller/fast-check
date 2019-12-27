@@ -1,7 +1,7 @@
 import fc from 'fast-check';
-import { MusicPlayerModel } from './model-based/MusicPlayerModel.js';
-import { MusicPlayerCommands, TrackNameArb } from './model-based/MusicPlayerCommands.js';
-import { MusicPlayerImplem } from './src/MusicPlayer.js';
+import { MusicPlayerModel } from './model-based/MusicPlayerModel';
+import { MusicPlayerCommands, TrackNameArb } from './model-based/MusicPlayerCommands';
+import { MusicPlayerImplem } from './src/MusicPlayer';
 
 describe('MusicPlayer', () => {
   it('should detect potential issues with the MusicPlayer', () =>

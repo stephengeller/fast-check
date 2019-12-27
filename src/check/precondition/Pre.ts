@@ -1,4 +1,4 @@
-import { PreconditionFailure } from './PreconditionFailure.js';
+import { PreconditionFailure } from './PreconditionFailure';
 
 /**
  * Add pre-condition checks inside a property execution

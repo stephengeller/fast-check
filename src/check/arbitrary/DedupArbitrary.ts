@@ -1,8 +1,8 @@
-import { Random } from '../../random/generator/Random.js';
-import { stream } from '../../stream/Stream.js';
-import { cloneMethod } from '../symbols.js';
-import { Arbitrary } from './definition/Arbitrary.js';
-import { Shrinkable } from './definition/Shrinkable.js';
+import { Random } from '../../random/generator/Random';
+import { stream } from '../../stream/Stream';
+import { cloneMethod } from '../symbols';
+import { Arbitrary } from './definition/Arbitrary';
+import { Shrinkable } from './definition/Shrinkable';
 
 /** @hidden */
 class DedupArbitrary<T> extends Arbitrary<T[]> {

@@ -1,6 +1,6 @@
-import { Random } from '../../random/generator/Random.js';
-import { Shrinkable } from '../arbitrary/definition/Shrinkable.js';
-import { IRawProperty } from './IRawProperty.js';
+import { Random } from '../../random/generator/Random';
+import { Shrinkable } from '../arbitrary/definition/Shrinkable';
+import { IRawProperty } from './IRawProperty';
 
 /** @hidden */
 const timeoutAfter = (timeMs: number) => {

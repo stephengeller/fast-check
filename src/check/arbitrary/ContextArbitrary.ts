@@ -1,6 +1,6 @@
-import { cloneMethod } from '../symbols.js';
-import { clonedConstant } from './ConstantArbitrary.js';
-import { Arbitrary } from './definition/Arbitrary.js';
+import { cloneMethod } from '../symbols';
+import { clonedConstant } from './ConstantArbitrary';
+import { Arbitrary } from './definition/Arbitrary';
 
 /**
  * Execution context attached to one predicate run

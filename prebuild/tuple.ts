@@ -1,4 +1,4 @@
-import { commas, iota, txCommas } from './helpers.js';
+import { commas, iota, txCommas } from './helpers';
 
 const signatureFor = (num: number, opt?: boolean): string =>
   `
@@ -12,8 +12,8 @@ const signatureFor = (num: number, opt?: boolean): string =>
 const generateTuple = (num: number): string => {
   const blocks = [
     // imports
-    `import { Arbitrary } from './definition/Arbitrary.js';`,
-    `import { GenericTupleArbitrary } from './TupleArbitrary.generic.js';`,
+    `import { Arbitrary } from './definition/Arbitrary';`,
+    `import { GenericTupleArbitrary } from './TupleArbitrary.generic';`,
     // declare all signatures
     ...iota(num).map(id => `${signatureFor(id + 1)}: Arbitrary<[${txCommas(id + 1)}]>;`),
     // declare function
@@ -45,9 +45,9 @@ const simpleUnitTest = (num: number, biased: boolean): string =>
 const generateTupleSpec = (num: number): string => {
   const blocks = [
     // imports
-    `import { dummy } from './TupleArbitrary.properties.js';`,
-    `import * as stubRng from '../../stubs/generators.js';`,
-    `import { tuple, genericTuple } from '../../../../src/check/arbitrary/TupleArbitrary.js';`,
+    `import { dummy } from './TupleArbitrary.properties';`,
+    `import * as stubRng from '../../stubs/generators';`,
+    `import { tuple, genericTuple } from '../../../../src/check/arbitrary/TupleArbitrary';`,
     // start blocks
     `describe('TupleArbitrary', () => {`,
     `    describe('tuple', () => {`,

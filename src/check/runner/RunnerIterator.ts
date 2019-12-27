@@ -1,8 +1,8 @@
-import { Shrinkable } from '../arbitrary/definition/Shrinkable.js';
-import { PreconditionFailure } from '../precondition/PreconditionFailure.js';
-import { VerbosityLevel } from './configuration/VerbosityLevel.js';
-import { RunExecution } from './reporter/RunExecution.js';
-import { SourceValuesIterator } from './SourceValuesIterator.js';
+import { Shrinkable } from '../arbitrary/definition/Shrinkable';
+import { PreconditionFailure } from '../precondition/PreconditionFailure';
+import { VerbosityLevel } from './configuration/VerbosityLevel';
+import { RunExecution } from './reporter/RunExecution';
+import { SourceValuesIterator } from './SourceValuesIterator';
 
 /**
  * @hidden

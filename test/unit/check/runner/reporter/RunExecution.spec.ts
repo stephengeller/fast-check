@@ -1,8 +1,8 @@
-import * as fc from '../../../../../lib/fast-check.js';
+import * as fc from '../../../../../lib/fast-check';
 
-import { RunExecution } from '../../../../../src/check/runner/reporter/RunExecution.js';
-import { VerbosityLevel } from '../../../../../src/check/runner/configuration/VerbosityLevel.js';
-import { ExecutionStatus } from '../../../../../src/fast-check.js';
+import { RunExecution } from '../../../../../src/check/runner/reporter/RunExecution';
+import { VerbosityLevel } from '../../../../../src/check/runner/configuration/VerbosityLevel';
+import { ExecutionStatus } from '../../../../../src/fast-check';
 
 describe('RunExecution', () => {
   it('Should expose data coming from the last failure', () =>

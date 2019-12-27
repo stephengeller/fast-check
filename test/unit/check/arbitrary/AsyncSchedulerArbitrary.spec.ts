@@ -1,10 +1,10 @@
-import { scheduler } from '../../../../src/check/arbitrary/AsyncSchedulerArbitrary.js';
+import { scheduler } from '../../../../src/check/arbitrary/AsyncSchedulerArbitrary';
 
-import * as stubRng from '../../stubs/generators.js';
-import { Random } from '../../../../src/random/generator/Random.js';
+import * as stubRng from '../../stubs/generators';
+import { Random } from '../../../../src/random/generator/Random';
 
 import prand from 'pure-rand';
-import { cloneMethod, hasCloneMethod } from '../../../../src/check/symbols.js';
+import { cloneMethod, hasCloneMethod } from '../../../../src/check/symbols';
 
 beforeEach(() => {
   jest.clearAllMocks();

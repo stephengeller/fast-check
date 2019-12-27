@@ -1,6 +1,6 @@
 import fc from 'fast-check';
 import * as _ from 'lodash';
-import { sort } from './src/sort.js';
+import { sort } from './src/sort';
 
 describe('sort', () => {
   it('should have the same length as source', () => {

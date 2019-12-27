@@ -2,7 +2,7 @@ import {
   configureGlobal,
   readConfigureGlobal,
   resetConfigureGlobal
-} from '../../../../../src/check/runner/configuration/GlobalParameters.js';
+} from '../../../../../src/check/runner/configuration/GlobalParameters';
 
 describe('GlobalParameters', () => {
   afterEach(() => {

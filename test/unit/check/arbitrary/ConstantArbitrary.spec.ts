@@ -1,9 +1,9 @@
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { clonedConstant, constant, constantFrom } from '../../../../src/check/arbitrary/ConstantArbitrary.js';
-import { cloneMethod } from '../../../../src/fast-check.js';
+import { clonedConstant, constant, constantFrom } from '../../../../src/check/arbitrary/ConstantArbitrary';
+import { cloneMethod } from '../../../../src/fast-check';
 
-import * as stubRng from '../../stubs/generators.js';
+import * as stubRng from '../../stubs/generators';
 
 const cloneable = { [cloneMethod]: () => cloneable };
 

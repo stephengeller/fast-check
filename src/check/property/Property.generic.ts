@@ -1,8 +1,8 @@
-import { Random } from '../../random/generator/Random.js';
-import { Arbitrary } from '../arbitrary/definition/Arbitrary.js';
-import { Shrinkable } from '../arbitrary/definition/Shrinkable.js';
-import { PreconditionFailure } from '../precondition/PreconditionFailure.js';
-import { IRawProperty, runIdToFrequency } from './IRawProperty.js';
+import { Random } from '../../random/generator/Random';
+import { Arbitrary } from '../arbitrary/definition/Arbitrary';
+import { Shrinkable } from '../arbitrary/definition/Shrinkable';
+import { PreconditionFailure } from '../precondition/PreconditionFailure';
+import { IRawProperty, runIdToFrequency } from './IRawProperty';
 
 /**
  * Interface for synchronous property, see {@link IRawProperty}

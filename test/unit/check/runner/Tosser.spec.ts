@@ -1,12 +1,12 @@
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { toss } from '../../../../src/check/runner/Tosser.js';
-import { stream } from '../../../../src/stream/Stream.js';
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
-import { IRawProperty } from '../../../../src/check/property/IRawProperty.js';
-import { Random } from '../../../../src/random/generator/Random.js';
+import { toss } from '../../../../src/check/runner/Tosser';
+import { stream } from '../../../../src/stream/Stream';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
+import { IRawProperty } from '../../../../src/check/property/IRawProperty';
+import { Random } from '../../../../src/random/generator/Random';
 
-import * as stubArb from '../../stubs/arbitraries.js';
+import * as stubArb from '../../stubs/arbitraries';
 import prand from 'pure-rand';
 
 const wrap = <T>(arb: Arbitrary<T>): IRawProperty<T> =>

@@ -1,8 +1,8 @@
-import { cloneMethod } from '../symbols.js';
-import { Random } from '../../random/generator/Random.js';
-import { Arbitrary } from './definition/Arbitrary.js';
-import { Shrinkable } from './definition/Shrinkable.js';
-import { stringify } from '../../utils/stringify.js';
+import { cloneMethod } from '../symbols';
+import { Random } from '../../random/generator/Random';
+import { Arbitrary } from './definition/Arbitrary';
+import { Shrinkable } from './definition/Shrinkable';
+import { stringify } from '../../utils/stringify';
 
 /** Define an item to be passed to `scheduleSequence` */
 export type SchedulerSequenceItem = { builder: () => Promise<any>; label: string } | (() => Promise<any>);

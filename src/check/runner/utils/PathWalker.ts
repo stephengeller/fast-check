@@ -1,5 +1,5 @@
-import { Stream, stream } from '../../../stream/Stream.js';
-import { Shrinkable } from '../../arbitrary/definition/Shrinkable.js';
+import { Stream, stream } from '../../../stream/Stream';
+import { Shrinkable } from '../../arbitrary/definition/Shrinkable';
 
 /** @hidden */
 export function pathWalk<Ts>(

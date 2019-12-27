@@ -1,5 +1,5 @@
-import { cloneMethod, hasCloneMethod } from '../../symbols.js';
-import { ICommand } from '../command/ICommand.js';
+import { cloneMethod, hasCloneMethod } from '../../symbols';
+import { ICommand } from '../command/ICommand';
 
 /** @hidden */
 export class CommandWrapper<Model extends object, Real, RunResult, CheckAsync extends boolean>

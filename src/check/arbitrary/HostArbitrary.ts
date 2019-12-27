@@ -1,12 +1,12 @@
-import { array } from './ArrayArbitrary.js';
+import { array } from './ArrayArbitrary';
 import {
   buildAlphaNumericPercentArb,
   buildLowerAlphaArb,
   buildLowerAlphaNumericArb
-} from './helpers/SpecificCharacterRange.js';
-import { option } from './OptionArbitrary.js';
-import { stringOf } from './StringArbitrary.js';
-import { tuple } from './TupleArbitrary.js';
+} from './helpers/SpecificCharacterRange';
+import { option } from './OptionArbitrary';
+import { stringOf } from './StringArbitrary';
+import { tuple } from './TupleArbitrary';
 
 /** @hidden */
 function subdomain() {

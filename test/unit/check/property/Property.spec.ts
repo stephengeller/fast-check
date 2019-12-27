@@ -1,11 +1,11 @@
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
-import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable.js';
-import { property } from '../../../../src/check/property/Property.js';
-import { pre } from '../../../../src/check/precondition/Pre.js';
-import { PreconditionFailure } from '../../../../src/check/precondition/PreconditionFailure.js';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
+import { Shrinkable } from '../../../../src/check/arbitrary/definition/Shrinkable';
+import { property } from '../../../../src/check/property/Property';
+import { pre } from '../../../../src/check/precondition/Pre';
+import { PreconditionFailure } from '../../../../src/check/precondition/PreconditionFailure';
 
-import * as stubArb from '../../stubs/arbitraries.js';
-import * as stubRng from '../../stubs/generators.js';
+import * as stubArb from '../../stubs/arbitraries';
+import * as stubRng from '../../stubs/generators';
 
 describe('Property', () => {
   it('Should fail if predicate fails', () => {

@@ -1,4 +1,4 @@
-import * as fc from '../../../src/fast-check.js';
+import * as fc from '../../../src/fast-check';
 
 type M2 = {
   current: { stepId: number };

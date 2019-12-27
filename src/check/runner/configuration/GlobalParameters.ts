@@ -1,5 +1,5 @@
-import { getGlobal } from '../../../utils/globalThis.js';
-import { Parameters } from './Parameters.js';
+import { getGlobal } from '../../../utils/globalThis';
+import { Parameters } from './Parameters';
 
 const globalParametersSymbol = Symbol.for('fast-check/GlobalParameters');
 

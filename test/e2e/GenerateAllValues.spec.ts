@@ -1,5 +1,5 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../src/fast-check.js';
+import * as fc from '../../src/fast-check';
 
 const seed = Date.now();
 describe(`Generate all values (seed: ${seed})`, () => {

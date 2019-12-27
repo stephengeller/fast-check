@@ -1,5 +1,5 @@
-import { Random } from '../../random/generator/Random.js';
-import { IRawProperty } from './IRawProperty.js';
+import { Random } from '../../random/generator/Random';
+import { IRawProperty } from './IRawProperty';
 
 /** @hidden */
 export class UnbiasedProperty<Ts, IsAsync extends boolean> implements IRawProperty<Ts, IsAsync> {

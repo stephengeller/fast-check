@@ -1,4 +1,4 @@
-import * as fc from '../../../src/fast-check.js';
+import * as fc from '../../../src/fast-check';
 
 const seed = Date.now();
 describe(`IntegerArbitrary (seed: ${seed})`, () => {

@@ -1,10 +1,10 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../../../../lib/fast-check.js';
+import * as fc from '../../../../../lib/fast-check';
 
-import { ArbitraryWithShrink } from '../../../../../src/check/arbitrary/definition/ArbitraryWithShrink.js';
-import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable.js';
-import { Random } from '../../../../../src/random/generator/Random.js';
-import { Stream, stream } from '../../../../../src/stream/Stream.js';
+import { ArbitraryWithShrink } from '../../../../../src/check/arbitrary/definition/ArbitraryWithShrink';
+import { Shrinkable } from '../../../../../src/check/arbitrary/definition/Shrinkable';
+import { Random } from '../../../../../src/random/generator/Random';
+import { Stream, stream } from '../../../../../src/stream/Stream';
 
 describe('ArbitraryWithShrink', () => {
   const arbWithShrink = new (class extends ArbitraryWithShrink<number> {

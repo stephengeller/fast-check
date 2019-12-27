@@ -1,14 +1,14 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { constant } from '../../../../src/check/arbitrary/ConstantArbitrary.js';
-import { integer } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
-import { record, RecordConstraints } from '../../../../src/check/arbitrary/RecordArbitrary.js';
-import { Random } from '../../../../src/random/generator/Random.js';
+import { constant } from '../../../../src/check/arbitrary/ConstantArbitrary';
+import { integer } from '../../../../src/check/arbitrary/IntegerArbitrary';
+import { record, RecordConstraints } from '../../../../src/check/arbitrary/RecordArbitrary';
+import { Random } from '../../../../src/random/generator/Random';
 
-import * as genericHelper from './generic/GenericArbitraryHelper.js';
+import * as genericHelper from './generic/GenericArbitraryHelper';
 
-import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary.js';
+import { Arbitrary } from '../../../../src/check/arbitrary/definition/Arbitrary';
 
 describe('RecordArbitrary', () => {
   describe('record', () => {

@@ -1,5 +1,5 @@
-import { pre } from '../../../../src/check/precondition/Pre.js';
-import { PreconditionFailure } from '../../../../src/check/precondition/PreconditionFailure.js';
+import { pre } from '../../../../src/check/precondition/Pre';
+import { PreconditionFailure } from '../../../../src/check/precondition/PreconditionFailure';
 
 describe('pre', () => {
   it('should not throw on thruthy condition', () => {

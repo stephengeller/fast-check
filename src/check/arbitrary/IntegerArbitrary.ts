@@ -1,11 +1,11 @@
-import { Random } from '../../random/generator/Random.js';
-import { Stream } from '../../stream/Stream.js';
-import { Arbitrary } from './definition/Arbitrary.js';
-import { ArbitraryWithShrink } from './definition/ArbitraryWithShrink.js';
-import { biasWrapper } from './definition/BiasedArbitraryWrapper.js';
-import { Shrinkable } from './definition/Shrinkable.js';
-import { biasNumeric } from './helpers/BiasNumeric.js';
-import { shrinkNumber } from './helpers/ShrinkNumeric.js';
+import { Random } from '../../random/generator/Random';
+import { Stream } from '../../stream/Stream';
+import { Arbitrary } from './definition/Arbitrary';
+import { ArbitraryWithShrink } from './definition/ArbitraryWithShrink';
+import { biasWrapper } from './definition/BiasedArbitraryWrapper';
+import { Shrinkable } from './definition/Shrinkable';
+import { biasNumeric } from './helpers/BiasNumeric';
+import { shrinkNumber } from './helpers/ShrinkNumeric';
 
 /** @hidden */
 class IntegerArbitrary extends ArbitraryWithShrink<number> {

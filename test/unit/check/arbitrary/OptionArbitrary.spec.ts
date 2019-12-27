@@ -1,11 +1,11 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { option } from '../../../../src/check/arbitrary/OptionArbitrary.js';
-import { Random } from '../../../../src/random/generator/Random.js';
+import { option } from '../../../../src/check/arbitrary/OptionArbitrary';
+import { Random } from '../../../../src/random/generator/Random';
 
-import * as stubArb from '../../stubs/arbitraries.js';
-import * as stubRng from '../../stubs/generators.js';
+import * as stubArb from '../../stubs/arbitraries';
+import * as stubRng from '../../stubs/generators';
 
 describe('OptionArbitrary', () => {
   describe('option', () => {

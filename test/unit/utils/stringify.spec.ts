@@ -1,6 +1,6 @@
-import * as fc from '../../../lib/fast-check.js';
+import * as fc from '../../../lib/fast-check';
 
-import { stringify } from '../../../src/utils/stringify.js';
+import { stringify } from '../../../src/utils/stringify';
 
 declare function BigInt(n: number | bigint | string): bigint;
 

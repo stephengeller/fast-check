@@ -1,7 +1,7 @@
 import fc from 'fast-check';
-import { SpaceArbitrary } from './arbitraries/SpaceArbitrary.js';
-import { SpaceBuilder } from './src/space.js';
-import { knight } from './src/knight.js';
+import { SpaceArbitrary } from './arbitraries/SpaceArbitrary';
+import { SpaceBuilder } from './src/space';
+import { knight } from './src/knight';
 
 // const solver = buggyKnight; // with bugs
 const solver = knight;

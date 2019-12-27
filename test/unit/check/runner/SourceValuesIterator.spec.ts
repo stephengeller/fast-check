@@ -1,6 +1,6 @@
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { SourceValuesIterator } from '../../../../src/check/runner/SourceValuesIterator.js';
+import { SourceValuesIterator } from '../../../../src/check/runner/SourceValuesIterator';
 
 function iota() {
   function* g() {

@@ -1,6 +1,6 @@
-import * as fc from '../../../lib/fast-check.js';
+import * as fc from '../../../lib/fast-check';
 
-import { hash } from '../../../src/utils/hash.js';
+import { hash } from '../../../src/utils/hash';
 
 describe('hash', () => {
   it('Should produce hash values in 0x00000000 and 0xffffffff', () =>

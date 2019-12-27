@@ -1,13 +1,13 @@
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { func, compareFunc, compareBooleanFunc } from '../../../../src/check/arbitrary/FunctionArbitrary.js';
-import { context } from '../../../../src/check/arbitrary/ContextArbitrary.js';
-import { integer } from '../../../../src/check/arbitrary/IntegerArbitrary.js';
-import { hasCloneMethod, cloneMethod } from '../../../../src/check/symbols.js';
+import { func, compareFunc, compareBooleanFunc } from '../../../../src/check/arbitrary/FunctionArbitrary';
+import { context } from '../../../../src/check/arbitrary/ContextArbitrary';
+import { integer } from '../../../../src/check/arbitrary/IntegerArbitrary';
+import { hasCloneMethod, cloneMethod } from '../../../../src/check/symbols';
 
-import * as genericHelper from './generic/GenericArbitraryHelper.js';
+import * as genericHelper from './generic/GenericArbitraryHelper';
 
-import * as stubRng from '../../stubs/generators.js';
+import * as stubRng from '../../stubs/generators';
 
 const forceClone = <T>(instance: T) => {
   if (!hasCloneMethod(instance)) throw new Error('Missing [cloneMethod]');

@@ -1,7 +1,7 @@
-import { Random } from '../../random/generator/Random.js';
-import { Arbitrary } from './definition/Arbitrary.js';
-import { Shrinkable } from './definition/Shrinkable.js';
-import { nat } from './IntegerArbitrary.js';
+import { Random } from '../../random/generator/Random';
+import { Arbitrary } from './definition/Arbitrary';
+import { Shrinkable } from './definition/Shrinkable';
+import { nat } from './IntegerArbitrary';
 
 export interface OptionConstraints<TNil = null> {
   /** The probability to build a nil value is of `1 / freq` */

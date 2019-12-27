@@ -1,6 +1,6 @@
-import { Arbitrary } from './definition/Arbitrary.js';
-import { integer } from './IntegerArbitrary.js';
-import { tuple } from './TupleArbitrary.js';
+import { Arbitrary } from './definition/Arbitrary';
+import { integer } from './IntegerArbitrary';
+import { tuple } from './TupleArbitrary';
 
 /** @hidden */
 function next(n: number): Arbitrary<number> {

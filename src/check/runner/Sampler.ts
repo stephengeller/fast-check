@@ -1,15 +1,15 @@
-import { Stream, stream } from '../../stream/Stream.js';
-import { ObjectEntries, StringPadEnd, StringPadStart } from '../../utils/polyfills.js';
-import { Arbitrary } from '../arbitrary/definition/Arbitrary.js';
-import { Shrinkable } from '../arbitrary/definition/Shrinkable.js';
-import { IRawProperty } from '../property/IRawProperty.js';
-import { Property } from '../property/Property.generic.js';
-import { UnbiasedProperty } from '../property/UnbiasedProperty.js';
-import { readConfigureGlobal } from './configuration/GlobalParameters.js';
-import { Parameters } from './configuration/Parameters.js';
-import { QualifiedParameters } from './configuration/QualifiedParameters.js';
-import { toss } from './Tosser.js';
-import { pathWalk } from './utils/PathWalker.js';
+import { Stream, stream } from '../../stream/Stream';
+import { ObjectEntries, StringPadEnd, StringPadStart } from '../../utils/polyfills';
+import { Arbitrary } from '../arbitrary/definition/Arbitrary';
+import { Shrinkable } from '../arbitrary/definition/Shrinkable';
+import { IRawProperty } from '../property/IRawProperty';
+import { Property } from '../property/Property.generic';
+import { UnbiasedProperty } from '../property/UnbiasedProperty';
+import { readConfigureGlobal } from './configuration/GlobalParameters';
+import { Parameters } from './configuration/Parameters';
+import { QualifiedParameters } from './configuration/QualifiedParameters';
+import { toss } from './Tosser';
+import { pathWalk } from './utils/PathWalker';
 
 /** @hidden */
 function toProperty<Ts>(

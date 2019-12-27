@@ -1,5 +1,5 @@
 import fc from 'fast-check';
-import { MusicPlayer } from '../src/MusicPlayer.js';
+import { MusicPlayer } from '../src/MusicPlayer';
 
 export class MusicPlayerModel {
   isPlaying = false;

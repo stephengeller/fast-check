@@ -1,6 +1,6 @@
 import { RandomGenerator } from 'pure-rand';
-import { RandomType } from './RandomType.js';
-import { VerbosityLevel } from './VerbosityLevel.js';
+import { RandomType } from './RandomType';
+import { VerbosityLevel } from './VerbosityLevel';
 
 /**
  * Customization of the parameters used to run the properties

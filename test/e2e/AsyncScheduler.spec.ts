@@ -1,4 +1,4 @@
-import fc from '../../src/fast-check.js';
+import fc from '../../src/fast-check';
 
 const seed = Date.now();
 describe(`AsyncScheduler (seed: ${seed})`, () => {

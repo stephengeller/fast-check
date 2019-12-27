@@ -1,8 +1,8 @@
 import * as prand from 'pure-rand';
-import * as fc from '../../../../lib/fast-check.js';
+import * as fc from '../../../../lib/fast-check';
 
-import { constant } from '../../../../src/check/arbitrary/ConstantArbitrary.js';
-import { oneof } from '../../../../src/check/arbitrary/OneOfArbitrary.js';
+import { constant } from '../../../../src/check/arbitrary/ConstantArbitrary';
+import { oneof } from '../../../../src/check/arbitrary/OneOfArbitrary';
 import {
   anything,
   object,
@@ -11,9 +11,9 @@ import {
   json,
   unicodeJson,
   ObjectConstraints
-} from '../../../../src/check/arbitrary/ObjectArbitrary.js';
+} from '../../../../src/check/arbitrary/ObjectArbitrary';
 
-import { Random } from '../../../../src/random/generator/Random.js';
+import { Random } from '../../../../src/random/generator/Random';
 
 describe('ObjectArbitrary', () => {
   const assertShrinkedValue = (original: any, shrinked: any) => {

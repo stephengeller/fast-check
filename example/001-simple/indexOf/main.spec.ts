@@ -1,5 +1,5 @@
 import fc from 'fast-check';
-import { indexOf } from './src/indexOf.js';
+import { indexOf } from './src/indexOf';
 
 describe('indexOf', () => {
   it('should confirm b is a substring of a + b + c', () => {
