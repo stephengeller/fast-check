@@ -4,6 +4,7 @@
   "description": "Property based testing framework for JavaScript (like QuickCheck)",
   "main": "lib/fast-check.js",
   "module": "lib/esm/fast-check.js",
+  "browser": "lib/esm/fast-check.js",
   "types": "lib/types/fast-check.d.ts",
   "typesVersions": {
     ">=3.2": {
